@@ -1,10 +1,10 @@
 import React from 'react'
-
+import NavBar from './components/NavBar';
 
 const App = ()=>{
-  return <div class='text-lg'>
-    test
-  </div>
+  return <div>
+            <NavBar/>
+         </div>
 }
 
 export default App;
