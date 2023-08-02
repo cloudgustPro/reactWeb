@@ -6,7 +6,9 @@ const App = ()=>{
     const[count, setcount]= useState(0);
 
   function handleAdd(){
-    setcount(count+1)
+    setcount(count=>count+1)
+    setcount(count=>count+1)
+    setcount(count=>count+1)
   }
 
   function handleSub(){
