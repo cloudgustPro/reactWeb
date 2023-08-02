@@ -1,10 +1,11 @@
 import React from 'react'
-import NavBar from './components/NavBar';
-import Home from './components/Home';
+import Header from './components/Header';
+import Footer from './components/Footer';
 const App = ()=>{
   return <div>
-            <NavBar/>
-            <Home/>
+            <Header />
+            <div>body</div>
+            <Footer />
          </div>
 }
 
