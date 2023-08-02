@@ -8,7 +8,7 @@ const Header = ()=>{
                         <img className='w-20 h-20' src={Logo} alt="logo" />
                         <p className='mt-6'>Keeper</p>
 
-                        <ul className='justify-end'>
+                        <ul className=' flex mt-6 mr-0'>
                         <li>Sign up</li>
                         <li>Log in</li>
                     </ul>
